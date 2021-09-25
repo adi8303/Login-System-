@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbgimg"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:fontFamily="@font/caveat"
+                android:text="Fullname :"
+                android:textColor="@color/black"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/registerFullname"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:fontFamily="@font/caveat"
+                android:hint="Enter Name :"
+                android:inputType="text"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:fontFamily="@font/caveat"
+                android:text="Email id :"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+            <EditText
+                android:id="@+id/registerEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:fontFamily="@font/caveat"
+                android:hint="Enter Email"
+                android:inputType="text"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:fontFamily="@font/caveat"
+                android:text="Password :"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+            <EditText
+                android:id="@+id/registerPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:fontFamily="@font/caveat"
+                android:hint="Enter Password"
+                android:inputType="text"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/caveat"
+                android:hint="Confirm password"
+                android:text="Confirm : "
+                android:textColor="@color/black"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/confPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:ems="10"
+                android:fontFamily="@font/caveat"
+                android:hint="Enter Password"
+                android:inputType="text"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/caveat"
+            android:text="Register : "
+            app:backgroundTint="#EA3333" />
+        <Button
+            android:id="@+id/gotoLogin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/caveat"
+            android:text="Login: "
+            app:backgroundTint="#EA3333" />
+    </LinearLayout>
+
+
+</LinearLayout>

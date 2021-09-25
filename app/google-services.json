@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "456737566207",
+    "firebase_url": "https://smsencryptionchatapp-default-rtdb.firebaseio.com",
+    "project_id": "smsencryptionchatapp",
+    "storage_bucket": "smsencryptionchatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456737566207:android:981fc7f21c426db2278bca",
+        "android_client_info": {
+          "package_name": "com.example.loginsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456737566207-elmb4tdi0aqqfjplrcgv5prq4te0qr93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY1fY30hVQ2Ga20oS_rl7UGjs7zA75zUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456737566207-elmb4tdi0aqqfjplrcgv5prq4te0qr93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456737566207:android:91336239865ea7ae278bca",
+        "android_client_info": {
+          "package_name": "com.example.smschatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456737566207-8nfntc2uh4cjsd7vvp7h8m8dmd70pafh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smschatapp",
+            "certificate_hash": "83ea99c5d46e221f8f3ecd02ff65a53e4818865b"
+          }
+        },
+        {
+          "client_id": "456737566207-elmb4tdi0aqqfjplrcgv5prq4te0qr93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY1fY30hVQ2Ga20oS_rl7UGjs7zA75zUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456737566207-elmb4tdi0aqqfjplrcgv5prq4te0qr93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

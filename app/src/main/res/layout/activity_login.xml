@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbgimg"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="359dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:fontFamily="@font/caveat"
+                android:text="Username: :"
+                android:textColor="@color/black"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/Username"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:fontFamily="@font/caveat"
+
+                android:inputType="text"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:fontFamily="@font/caveat"
+                android:text="Password :"
+                android:textColor="@color/black"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:fontFamily="@font/caveat"
+
+                android:inputType="text"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/Login_button"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="75dp"
+            android:fontFamily="@font/caveat"
+            android:text="Log in"
+            app:backgroundTint="#EF4646" />
+        <Button
+            android:id="@+id/create_account_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:fontFamily="@font/caveat"
+            android:text="Create acoount"
+            app:backgroundTint="#EF4646" />
+    </LinearLayout>
+
+
+</LinearLayout>

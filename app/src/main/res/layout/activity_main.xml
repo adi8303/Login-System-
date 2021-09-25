@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/verifyemailMsg"
+            android:layout_width="296dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="Please verify Your Email Address !!"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            tools:visibility="gone"
+            android:fontFamily="@font/caveat">
+
+
+        </TextView>
+
+
+        <Button
+            android:id="@+id/verifyemailBtn"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="25dp"
+            android:text="Verify email"
+            tools:visibility="gone">
+
+        </Button>
+<!--            tools:visibility="gone" -->
+            />
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="24dp"
+            android:textSize="40dp"
+            android:text="Hello Welcome to The App :) "
+            android:fontFamily="@font/caveat"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/signoutbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="sign out"
+            tools:visibility="visible">
+
+        </Button>
+
+
+
+</LinearLayout>
